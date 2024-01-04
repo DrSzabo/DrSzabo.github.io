@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Your Biography</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -23,17 +23,23 @@
         section {
             max-width: 800px;
             margin: 20px auto;
-            padding: 20px;
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden; /* Clear the float */
         }
 
         img {
-            max-width: 100%;
+            float: left;
+            max-width: 50%;
             height: auto;
             border-radius: 8px;
+            margin-right: 20px;
             margin-bottom: 20px;
+        }
+
+        h2 {
+            clear: both; /* Clear the float */
         }
 
         footer {
@@ -47,14 +53,16 @@
 
 <body>
     <header>
-        <h1>Justin Szabo, PhD</h1>
+        <h1>Your Full Name</h1>
     </header>
 
     <section>
         <img src="Justin.jpg" alt="Your Photo">
         <h2>Biography</h2>
         <p>
-            Hello, I'm Justin Szabo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo vel fringilla convallis. Proin et consequat nisi. In hac habitasse platea dictumst. Integer sed massa at ligula convallis cursus.
+            Hello, I'm Your Full Name. I am a passionate individual with a keen interest in [your interests].
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo vel fringilla convallis.
+            Proin et consequat nisi. In hac habitasse platea dictumst. Integer sed massa at ligula convallis cursus.
         </p>
 
         <p>
